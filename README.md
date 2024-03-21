@@ -1,24 +1,60 @@
-# Marvel-Mart-Project
-Title: Project Overview - Data Cleaning, Exploratory Data Analysis, and Cross-Reference Statistics
+# Marvel Mart Data Analysis Project
 
-Description: For this project, I focused primarily on handling a large CSV file. My key tasks involved cleaning the data, creating meaningful data visualizations, and performing different types of statistical analyses related to the dataset. To organize the workflow efficiently, the project was segmented into three separate stages:
+## Overview
 
-1. Data Cleaning:
-- Tasked with the initial phase of preparing the raw data.
-- Focused on cleaning, structuring, and enhancing data quality.
-- Addressed inconsistencies, missing values, and formatting issues.
-- Ensured that the dataset was primed for in-depth analysis.
+This project was developed by Tai Nguyen on March 15, 2023, as part of a comprehensive data analysis exercise focusing on the sales data of Marvel Mart, a renowned department store chain with global operations. The primary goal was to apply data cleaning techniques, perform exploratory data analysis (EDA), and generate insightful reports and visualizations to aid business decision-making processes. 
 
-2. Exploratory Data Analysis (EDA):
-- Explored the cleansed data to gain valuable insights.
-- Created informative data visualizations to showcase trends, patterns, and outliers.
-- Employed descriptive statistics and visualization techniques to uncover hidden relationships within the dataset.
-- The EDA phase aimed to provide a solid foundation for subsequent analysis.
+## Project Objectives
 
-3. Cross-Reference Statistics:
-- Delved deeper into the dataset, applying advanced statistical methods.
-- Conducted cross-referencing analyses to identify correlations and dependencies.
-- Generated meaningful metrics and statistical summaries to extract actionable knowledge.
-- This phase focused on leveraging the data to draw relevant conclusions and make informed decisions.
+- **Data Cleaning**: Identify and rectify missing or incorrect entries in the dataset to prepare a clean, reliable dataset for analysis.
+- **Exploratory Data Analysis**: Conduct a thorough analysis to uncover trends, patterns, and anomalies within the sales data.
+- **Report Generation**: Provide actionable insights through detailed reports and visualizations that support strategic business decisions.
 
-By dividing the project into three distinct sections, I established a structured and systematic method for managing the dataset. This approach enhanced my efficiency and facilitated the extraction of valuable insights, which were instrumental in guiding data-driven decision-making throughout the project.
+## Tools and Libraries Used
+
+- **Python**: The core programming language for the project.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical computing and array manipulation.
+- **Matplotlib & Seaborn**: For data visualization and creating insightful charts and graphs.
+
+## Dataset
+
+The project utilizes `MM_Sales.csv`, a dataset provided by Marvel Mart containing sales records across various countries, including information such as country, item type, sales channel, order priority, unit cost, total revenue, total cost, and total profit.
+
+## Methodology
+
+### Part 1: Cleaning the Data
+
+1. **Identify Missing Data**: Employed Python scripts to detect missing values across multiple columns including 'Country', 'Item Type', 'Order Priority', and 'Order ID'.
+2. **Rectify Data Anomalies**: Corrected erroneous entries by replacing invalid text entries with "NULL" and non-numeric values with zeroes or appropriate placeholders.
+3. **Dataframe Preparation**: Generated a clean, processed DataFrame, `MM_Sales_clean.csv`, free from inaccuracies and ready for analysis.
+
+### Part 2: Exploratory Data Analysis with Reports & Visualizations
+
+1. **Country Rankings**: Identified the top 10 countries based on sales volume to strategize on new shipping center locations.
+2. **Sales Channel Analysis**: Analyzed the distribution of online and offline orders and visualized the data using pie charts.
+3. **Item Type Profitability**: Created boxplots to explore the distribution of total profits by item type and ranked the top 3 most profitable item types.
+4. **Descriptive Statistics**: Computed and reported sum, average, and maximum values for 'Units Sold', 'Unit Cost', 'Total Revenue', 'Total Cost', and 'Total Profit'.
+
+### Part 3: Cross-Reference Statistics
+
+Compiled a list of regions with corresponding countries to facilitate geographical analysis and strategic planning.
+
+## Results
+
+- **`Marvel_Mart_Rankings.txt`**: Text file summarizing sales rankings, online vs. offline orders, order priorities, and top-selling items.
+- **`Marvel_Mart_Calc.txt`**: Text file detailing calculated statistics such as total sales, average unit cost, and total profits by item type.
+- **Visualizations**: Produced various charts and plots to visually represent analysis findings, aiding in the interpretation of complex data.
+
+## Running the Project
+
+To execute the analysis:
+
+1. Ensure Python 3.x and necessary libraries (pandas, numpy, matplotlib, seaborn) are installed.
+2. Run the script: `python Nguyen_Project2.py`.
+
+## Contributions and Acknowledgments
+
+This project was made possible by the data provided by Marvel Mart and the guidance received from Seattle University's project instructions. It stands as a testament to the power of data analysis in driving business insights and strategic decisions.
+
+
