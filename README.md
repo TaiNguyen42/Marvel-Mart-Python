@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was developed by Tai Nguyen on March 15, 2023, as part of a comprehensive data analysis exercise focusing on the sales data of Marvel Mart, a renowned department store chain with global operations. The primary goal was to apply data cleaning techniques, perform exploratory data analysis (EDA), and generate insightful reports and visualizations to aid business decision-making processes. 
+This project was developed as part of a comprehensive data analysis exercise focusing on the sales data of Marvel Mart, a renowned department store chain with global operations. The primary goal was to apply data cleaning techniques, perform exploratory data analysis (EDA), and generate insightful reports and visualizations to aid business decision-making processes. 
 
 ## Project Objectives
 
